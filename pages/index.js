@@ -12,7 +12,7 @@ export default function Home({ products }) {
       <HeroBanner />
 
       <div>
-        <h1 className='font-extrabold text-3xl'>RARE Advanced Clothing For a Conscious Society</h1>
+        <h1 className='font-extrabold text-3xl'>Basic Store Template</h1>
         <br />
         <h2 className='font-medium text-2xl text-center'>Product Selection</h2>
       </div>
