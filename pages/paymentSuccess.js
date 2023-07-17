@@ -1,9 +1,8 @@
-"use client";
 import { useEffect } from 'react'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 
-const paymentSuccess = () => {
+const PaymentSuccess = () => {
     
     useEffect(() => {
         localStorage.clear();
@@ -15,4 +14,4 @@ const paymentSuccess = () => {
     )
 }
 
-export default paymentSuccess
+export default PaymentSuccess
