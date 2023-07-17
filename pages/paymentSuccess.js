@@ -1,10 +1,11 @@
-import React from 'react'
+"use client";
+import { useEffect } from 'react'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 
 const paymentSuccess = () => {
     
-    React.useEffect(() => {
+    useEffect(() => {
         localStorage.clear();
         
     },[])
